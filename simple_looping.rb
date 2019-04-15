@@ -37,7 +37,7 @@ end
 def for_iterator(number_of_times)
   counter = 1..7
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  for int in for_iterator puts phrase 
+  for int in for_iterator(number_of_times) puts phrase 
   end
 end
 end 
